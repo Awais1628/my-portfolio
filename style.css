@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fefbe9;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:#f6c453;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+#about{
+    display: flex;
+    width: 100%;
+    background-color: #fefbe9;
+}
+
+#about h1,p{
+    margin-left:80px;
+    text-align:justify;
+}
+.about-content{
+    width: 50%;
+    color: #183a1d;
+    margin-top: 50px;
+    
+}
+.about-img{
+    width: 50%;
+     margin-top: 50px;
+    background-color: #fefbe9; 
+
+}
+.about-img img{
+    margin-left: 100px;
+}
+#skills{
+    background-color: #e1eedd;
+    color: #183a1d;
+    
+}
+#skills h1{
+    text-align: center;
+}
+.skills-content1{
+    width: 50%;
+}
+.skills-content2{
+    width: 50%;
+}
+.skills2{
+    display: flex;
+}
+.skills2 li{
+    padding: 20px;
+    list-style: none;
+    margin-left: 100px;
+    font-size: 20px;
+}
+#projects{
+    padding: 20px 0;
+    background-color: #fefbe9;
+    color: #183a1d;
+    text-align:justify;
+}
+#projects h1{
+    text-align: center;
+}
+.serviceslist{
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+     grid-gap: 40px;
+     margin-top: 50px;
+     
+} 
+.serviceslist div{
+    background-color: #e1eedd;
+    padding: 40px;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: background 0.5s , transform 0.5s;
+}
+.serviceslist div i{
+     font-size: 50px;
+     margin-bottom: 10px;
+}
+.serviceslist div h2{
+    margin-bottom: 5px;
+    color: #183a1d;
+
+}
+.serviceslist div a{
+    text-decoration: none;
+    color:#183a1d;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+#Experience{
+    background-color: #e1eedd;
+    color: #183a1d;
+    text-align:justify;     
+}
+.exp-heading{
+    text-align: center;
+}
+.exp-list{
+    padding: 20px;
+    list-style: none;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#contact{
+    text-align: center;
+}
+#contact h3 {
+    display: block;
+    color: #183a1d;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#contact,.textarea{
+    border: 1px solid #ccc;
+    background: #fefbe9;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.textarea{
+    width: 25%;
+}
+#contact button{
+    cursor: pointer;
+    width: 25%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#contact button:hover{
+    background: #43A047;
+}
+footer
+{
+    background-color: #fefbe9;
+    color: #183a1d;
+    text-align: center;
+}
+
+
